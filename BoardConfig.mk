@@ -29,7 +29,7 @@ TARGET_HAVE_TSLIB := false
 TARGET_GLOBAL_CFLAGS += -mfpu=neon -mfloat-abi=softfp
 TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
 
-TARGET_RECOVERY_FSTAB := device/hp/tenderloin/recovery/twrp.fstab
+TARGET_RECOVERY_FSTAB := device/hp/tenderloin/fstab.tenderloin
 RECOVERY_FSTAB_VERSION := 2
 
 COMMON_GLOBAL_CFLAGS += -DREFRESH_RATE=59 -DQCOM_HARDWARE -DQCOM_NO_SECURE_PLAYBACK

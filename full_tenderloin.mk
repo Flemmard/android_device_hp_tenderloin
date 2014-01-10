@@ -118,7 +118,8 @@ PRODUCT_COPY_FILES += \
 
 # Recovery
 PRODUCT_COPY_FILES += \
-    device/hp/tenderloin/recovery/sbin/ts_srv:recovery/root/sbin/ts_srv
+    device/hp/tenderloin/recovery/sbin/ts_srv:recovery/root/sbin/ts_srv \
+    device/hp/tenderloin/recovery/twrp.fstab:recovery/root/etc/twrp.fstab
 
 # We have enough storage space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise
